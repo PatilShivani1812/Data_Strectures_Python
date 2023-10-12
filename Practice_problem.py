@@ -73,6 +73,9 @@
 # print(li)
 # print(li[-2])
 
+
+
+
 # li = [20, 30, 40, 25, 10]
 # len_li = len(li)
 
