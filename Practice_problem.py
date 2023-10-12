@@ -103,6 +103,8 @@
 # rev_li = li[::-1]
 # print(rev_li)
 
+
+
 # #Merge two dictionaries
 # dict1 = {'a': 10, 'b': 8}
 # dict2 = {'c': 6, 'd': 4}
