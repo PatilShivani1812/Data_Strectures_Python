@@ -320,4 +320,111 @@ print("duplicate words",li)
 # else:
 #     print("True")
 
-    
+# Write a program to reverse an integer in Python.
+# int1 = 234
+# rever_int = str(int1)[::-1]
+# print(rever_int)
+
+# Write a program in Python to check whether an integer is Armstrong number or not.
+# num = 153
+# num1 = str(num)
+# digit_num = len(num1)
+# armstrong_sum = 0
+# for digit in num1:
+#     digit_sum = int(digit)**digit_num
+#     armstrong_sum = armstrong_sum+digit_sum
+# print(armstrong_sum)
+# if armstrong_sum == num:
+#     print("Number is Armstrong")
+# else:
+#     print("Number is not Armstrong")
+
+# Write a program in Python to check given number is prime or not.
+
+# Write a program in Python to print the Fibonacci series using iterative method.
+# n = 10
+# fib_series = [0,1]
+# for i in range(2,n):
+#     # print("i",i)
+#     next_num = fib_series[i-1]+fib_series[i-2]
+#     # print("i-1",fib_series[i-1])
+#     # print("i-2",fib_series[i-2])
+#     fib_series.append(next_num)
+# print(fib_series)
+
+# Write a program in Python to print the Fibonacci series using recursive method.
+# def recursive(num):
+#     if num <=0:
+#         return []
+#     elif num ==1:
+#         return [0]
+#     elif num == 2:
+#         return [0,1]
+#     else:
+#         feb_serise = recursive(num-1)
+#         # print("feb_serise",feb_serise)
+#         feb_serise.append(feb_serise[-1]+feb_serise[-2])
+#         return feb_serise
+# num = 10
+# print(recursive(num))
+
+# Write a program in Python to check whether a number is palindrome or not using iterative method.
+# num = 121
+# new = str(num)[::-1]
+# if num == int(new):
+#     print("palindrome")
+# else:
+#     print("Not palindrome")
+
+# Write a program in Python to find greatest among three integers.
+# def find_greatest(num1,num2,num3):
+#     gratest = num1
+#     if num2>gratest:
+#         return num2
+#     elif num3>gratest:
+#         return  num3
+#     else:
+#         return gratest
+# num1=10
+# num2=2
+# num3 = 15
+# print(find_greatest(num1,num2,num3))
+  
+# Write a program in Python to check if a number is binary?
+# num = 104010
+# while(num>0):
+#     j = num%10
+#     # print(j)
+#     if j !=0 and j !=1:
+#         print("num is not binary")
+#         break
+#     num = num//10
+#     if num==0:
+#         print("num is binary")
+        
+# Write a program in Python to find sum of digits of a number using recursion?
+# def sum_num(a,b):
+#     return a+b
+# print(sum_num(5,8))
+# Write a program in Python to swap two numbers without using third variable?
+# a = 4
+# b = 2
+# a = a+b
+# print("a",a)
+# b = a-b
+# print("b",b)
+
+# a = a-b
+# print("a",a)
+
+# Write a program in Python to find prime factors of a given integer.
+# n =56
+# factors = []
+# divisor = 2
+# while divisor <=n:
+#     if n%divisor ==0:
+#         factors.append(divisor)
+#         n //= divisor
+#     else:
+#         divisor +=1
+# print(factors)
